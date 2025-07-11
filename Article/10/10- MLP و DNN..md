@@ -231,6 +231,21 @@
 * بهترین عملکرد برای DNN: با الگوریتم RMSProp (۸۶.۴۵٪)
 * ضعیف‌ترین عملکرد برای MLP: با الگوریتم AdaGrad (۷۹.۶۵٪)
 * ضعیف‌ترین عملکرد برای DNN: با الگوریتم SGD (۸۳.۱٪)
+**MLP**
+* Accuracy  : 85.57%
+* Precision : 75.20%
+* Recall    : 44.14%
+* F1 Score  : 55.27%
+**DNN:**
+* Mean Accuracy (10-fold CV): 85.16%
+* Mean Precision (10-fold CV): 77.62%
+* Mean Recall (10-fold CV): 38.88%
+* Mean F1-Score (10-fold CV): 51.31%
+**DNN Dropuot**
+* Mean Accuracy (10-fold CV): 85.62%
+* Mean Precision (10-fold CV): 79.56%
+* Mean Recall (10-fold CV): 39.76%
+* Mean F1 Score (10-fold CV): 52.81%
 
 همان داده آموزشی برای هر دو مدل استفاده شد و خروجی نهایی برای هر مشتری، احتمال ریزش (۱) یا عدم ریزش (۰) بود. از کل ۱۰٬۰۰۰ مشتری در دیتاست، ۲۰٪ آن‌ها ریزشی و ۸۰٪ باقی‌مانده غیرریزشی بودند.
 
